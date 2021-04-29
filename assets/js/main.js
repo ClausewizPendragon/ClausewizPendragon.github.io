@@ -6,10 +6,11 @@
 function fnc_present() {
 	var txt;
 	var person = prompt("암호를 입력하세요:", "뭘까요?ㅋㅋㅋ");
-	if (person == "김씨할매 1주 년") {
+	if (person == "김씨할매 1주년") {
 		alert("축하드려요. " + person + "! 늘 재미있는 방송 부탁해용~");
 	} else {
 		alert("해독 실패 하셨군요 :P");
+		document.querySelector(".disableLink").removeAttribute('href');
 	}
 	//document.getElementById("demo").innerHTML = txt;
 }

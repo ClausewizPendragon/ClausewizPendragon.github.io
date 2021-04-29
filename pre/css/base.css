@@ -29,9 +29,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.tile--image-cursor {
-	background-color: #1da1f2;
-	cursor: url("../img/me.ico"), auto;
+.tile--emoji-cursor {
+	background-color: #4267b2;
+	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💟</text></svg>"), auto;
 }
 
 .demo-4 {

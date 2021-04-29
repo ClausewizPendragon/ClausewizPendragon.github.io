@@ -73,7 +73,7 @@ input, select, textarea {
 }
 
 .tile--image-cursor {
-	cursor: url("../../images/me.ico"), auto;
+	cursor: url("../../images/me.jpg"), auto;
 }
 
 /* Row */

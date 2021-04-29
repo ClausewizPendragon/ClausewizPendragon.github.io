@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.tile--image-cursor {
+	cursor: url("../../images/me.ico"), auto;
+}
+
 /* Row */
 
 	.row {

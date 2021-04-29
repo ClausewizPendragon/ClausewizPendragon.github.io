@@ -29,6 +29,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.tile--image-cursor {
+	background-color: #1da1f2;
+	cursor: url("../img/me.ico"), auto;
+}
+
 .demo-4 {
 	--color-text: #000000;
 	background-image: url('../img/bg.jpg');

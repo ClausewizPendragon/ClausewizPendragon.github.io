@@ -3,6 +3,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+function fnc_present() {
+	var txt;
+	var person = prompt("Please enter your name:", "Harry Potter");
+	if (person == null || person == "") {
+		txt = "User cancelled the prompt.";
+	} else {
+		txt = "Hello " + person + "! How are you today?";
+	}
+	document.getElementById("demo").innerHTML = txt;
+}
 
 (function($) {
 

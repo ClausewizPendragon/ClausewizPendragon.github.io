@@ -115,8 +115,6 @@ a:focus {
 	display: inline;
 }
 
-.frame__github,
-.frame__links a:not(:last-child),
 .frame__demos a:not(:last-child) {
 	margin-right: 1rem;
 }
@@ -130,20 +128,6 @@ a:focus {
 	color: var(--color-text);
 	text-decoration: line-through;
 	letter-spacing: 40px;
-}
-
-.frame__pagetitle {
-	margin: 3rem 0 0 0;
-}
-
-.frame__pagetitle span {
-	display: block;
-	font-weight: normal;
-	font-size: 0.85rem;
-}
-
-.frame__pagetitle span::before {
-	content: '\2015   ';
 }
 
 .content {
@@ -180,12 +164,6 @@ a:focus {
 	filter: var(--filter-img);
 }
 
-.content__img--full {
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-}
-
 @media screen and (min-width: 53em) {
 	:root {
 		font-size: 18px;
@@ -211,9 +189,6 @@ a:focus {
 		pointer-events: none;
 		grid-template-columns: 75% 25%;
 		grid-template-rows: auto auto auto;
-		grid-template-areas: 'pagetitle github'
-							'... ...'
-							'title ...';
 	}
 	.frame__pagetitle {
 		grid-area: pagetitle;
@@ -227,17 +202,8 @@ a:focus {
 		margin: 0;
 		font-weight: normal;
 	}
-	.frame__links {
-		padding: 0;
-		margin: 0 0 0 3rem;
-		justify-self: end;
-	}
 	.frame__demos {
 		margin: 0 0 0 3rem;
-	}
-	.frame__github {
-		grid-area: github;
-		justify-self: end;
 	}
 	.frame a {
 		pointer-events: auto;

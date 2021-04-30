@@ -89,7 +89,7 @@
             return TweenMax.isTweening(this.DOM.el) || this.DOM.el.style.opacity != 0;
         }
         setRatio() {
-            this.DOM.el.style.setProperty('--img-maxwidth', `${MathUtils.getRandomFloat(150,350)}px`);
+            this.DOM.el.style.setProperty('--img-maxwidth', `${MathUtils.getRandomFloat(200,500)}px`);
             // get sizes/position
             this.getRect();
         }

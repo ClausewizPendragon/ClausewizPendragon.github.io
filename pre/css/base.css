@@ -33,7 +33,7 @@ body {
 	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💟</text></svg>"), auto;
 }
 
-.demo-4 {
+.demo {
 	--color-text: #000000;
 	background-image: url('../img/bg.jpg');
 	background-size: 100%;

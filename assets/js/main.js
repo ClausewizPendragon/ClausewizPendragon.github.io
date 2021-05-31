@@ -4,9 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 function fnc_present() {
-	var txt;
 	var person = prompt("암호를 입력하세요:", "뭘까요?ㅋㅋㅋ");
-	if (person == "test") {
+	if (person == "[김씨할매_1주년~!]") {
 		alert(person + " 축하드려요! 늘 재미있는 방송 부탁해요~");
 		document.querySelector(".disableLink").setAttribute('href', '#present');
 	} else {

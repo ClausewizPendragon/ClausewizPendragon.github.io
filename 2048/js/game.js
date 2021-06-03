@@ -120,7 +120,7 @@ var Game = (function () {
             data.score += score;
             if (data.score >= 604 && flags <1) {
                 flags = 1;
-                alert("암호는: [김씨할매_1주년~!]");
+                alert("암호는: [김씨할매_1주년!_5959~!]");
             }
             if (data.best < data.score) {
                 data.best = data.score;

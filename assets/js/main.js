@@ -11,17 +11,7 @@ function fnc_present() {
 	} else {
 		alert("암호가 틀리셨습니다 :P");
 		document.querySelector(".disableLink").removeAttribute('href', 'javascript:');
-	}
-}
-
-function fnc_gift() {
-	var person = prompt("암호를 입력하세요:", "뭘까요?ㅋㅋㅋ");
-	if (person == "[김씨할매_1주년!_5959~!]") {
-		alert(person + " 축하드려요! 늘 재미있는 방송 부탁해요~");
-		document.querySelector(".disableLink").setAttribute('href', '#present');
-	} else {
-		alert("암호가 틀리셨습니다 :P");
-		document.querySelector(".disableLink").removeAttribute('href', 'javascript:');
+		document.getElementById("present").removeAttribute('href', 'javascript:');
 	}
 }
 
@@ -33,6 +23,7 @@ function fnc_letter() {
 	} else {
 		alert("암호가 틀리셨습니다 :P");
 		document.querySelector(".disableLink").removeAttribute('href', 'javascript:');
+		document.getElementById("chat").removeAttribute('href', 'javascript:');
 	}
 }
 

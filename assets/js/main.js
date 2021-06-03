@@ -10,7 +10,7 @@ function fnc_present() {
 		document.querySelector(".disableLink").setAttribute('href', '#present');
 	} else {
 		alert("암호가 틀리셨습니다 :P");
-		document.querySelector(".disableLink").removeAttribute('href');
+		document.querySelector(".disableLink").removeAttribute('href', 'javascript:');
 	}
 }
 
@@ -21,7 +21,7 @@ function fnc_gift() {
 		document.querySelector(".disableLink").setAttribute('href', '#present');
 	} else {
 		alert("암호가 틀리셨습니다 :P");
-		document.querySelector(".disableLink").removeAttribute('href');
+		document.querySelector(".disableLink").removeAttribute('href', 'javascript:');
 	}
 }
 
@@ -32,7 +32,7 @@ function fnc_letter() {
 		document.querySelector(".disableLink").setAttribute('href', '#chat');
 	} else {
 		alert("암호가 틀리셨습니다 :P");
-		document.querySelector(".disableLink").removeAttribute('href');
+		document.querySelector(".disableLink").removeAttribute('href', 'javascript:');
 	}
 }
 
